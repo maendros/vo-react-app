@@ -1,0 +1,12 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1000px;
+    margin: 1% auto;
+}
+
+.section-navigation {
+    width: 450px;
+    align-self: flex-end;
+}

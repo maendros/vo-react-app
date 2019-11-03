@@ -20,3 +20,25 @@
 .App-link {
   color: #09d3ac;
 }
+.navigation-layout {
+  padding-top: 2em;
+  position: relative;
+  display: flex;
+  padding-bottom: 1.2%;
+
+  font-family: Helvetica, sans-serif;
+  line-height: 2em;
+
+  justify-content: center;
+}
+.upper-layout {
+  background-color: #404859;
+}
+.navigation-layout ul {
+  width: 40%;
+}
+
+html {
+  overflow-y: scroll;
+}
+

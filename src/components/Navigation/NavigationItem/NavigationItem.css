@@ -1,0 +1,60 @@
+.NavigationItem {
+  position: relative;
+  width: 120px;
+}
+
+.NavigationItem a {
+  text-decoration: none;
+  width: 100%;
+  color: rgb(151, 151, 151);
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: rgb(241, 241, 241);
+}
+.active:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 69%;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.NavigationMenu {
+  color: rgb(151, 151, 151);
+}
+.NavigationMenu a:hover,
+.NavigationMenu a:active,
+.NavigationMenu a.active {
+  color: rgb(241, 241, 241);
+}
+.NavigationSection {
+  color: #253642;
+}
+.NavigationSection a:hover,
+.NavigationSection a:active,
+.NavigationSection a.active {
+  color: rgb(151, 151, 151);
+}
+
+.activeMenu:after {
+  background-color: #2ed47d;
+}
+.activeSection:after {
+  background-color: #1292ee;
+}
